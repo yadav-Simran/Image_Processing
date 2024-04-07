@@ -43,7 +43,7 @@ for i in range(1, h-1):
         newgradientImage [i - 1, j - 1] = mag
 
 plt.figure()
-plt.title("Lenna-after-Sobel.png")
+plt.title("Lenna-after_Sobel.png")
 plt.imsave('Lenna-Sobel.png', newgradientImage, cmap = 'gray', format='png')
 plt.imshow(newgradientImage, cmap='gray')
 plt.show()
